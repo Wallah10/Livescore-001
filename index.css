@@ -1,0 +1,113 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color:#098181;
+    color: white;
+    width: 90vw;
+    border-radius: 10px;
+}
+.head{
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+.wg-api-football-games{
+    background-color: #00ffff;
+}
+footer{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    color: #11181c;
+    font-size:1.3em;
+    background-color: #00ffff;
+    text-align: center;
+    font-family: serif;
+   
+}
+.contact-email{
+    width: 280px;
+    height: 320px;
+    border: 1px solid white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #11181c;
+    padding: 20px;
+    margin-bottom: 0px;
+    
+}
+.contact a{
+    text-decoration: none;
+    color: #00ffff;
+}
+.contact a:hover{
+    text-decoration: none;
+    color: #1b6969;
+}
+
+form{
+   
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    font-size:1.3em;
+    background-color: #11181c;
+    padding: 15px 20px;
+    border-radius: 20px;
+}
+textarea{
+    border: none;
+    font-size: 18px;
+    outline: none;
+
+}
+input{
+    padding: 10px;
+    color: #11181c;
+    font-size: 18px;
+    caret-color:#000000 ;
+    border: none;
+    background-color: #ffffff;
+    outline: none;
+}
+button{
+    color: #11181c;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 10px 15px;
+    border:none;
+    font-weight: 600;
+   margin: 10px auto;
+}
+button:hover{
+    background-color: #11181c;
+    color: #ffffff;
+    transform: .2s ease-in-out;
+    border: 1px solid white;
+}
+@media (max-width:600px){
+    .contact{
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: #11181c;
+        padding: 20px;
+        margin-bottom: 0px;
+        gap: 20px;
+       
+    }   
+}
