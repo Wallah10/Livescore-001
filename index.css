@@ -111,7 +111,7 @@ button:hover{
     }   
     .container{
         width: 100vw;
-       
+        border-radius: 0px;
     }
     .contact-email{
         width: 90vw;
@@ -122,7 +122,7 @@ button:hover{
     }
     form{
         text-align: center;
-        width: 90vw;
+        width: 85vw;
         height: 50vh;
         border: 1px solid #ffffff;
         color: #ffffff;
@@ -146,8 +146,14 @@ button:hover{
         background-color: #ffffff;
         outline: none;
     }
-    .head{
-        font-size: 17px;
+    .head h1{
+        font-size: 1.3 em;
     }
-   
+   footer{
+    background-color:#000000;
+    color: #00ffff;
+   }
+   .head{
+    margin-top: 0px;
+   }
 }
