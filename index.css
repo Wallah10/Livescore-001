@@ -12,8 +12,7 @@ body{
 }
 .head{
     text-align: center;
-    position: sticky;
-    top: 0px;
+   
 }
 .wg-api-football-games{
     background-color: #00ffff;
@@ -146,6 +145,9 @@ button:hover{
         border: none;
         background-color: #ffffff;
         outline: none;
+    }
+    .head{
+        font-size: 17px;
     }
    
 }
