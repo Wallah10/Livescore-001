@@ -110,4 +110,42 @@ button:hover{
         gap: 20px;
        
     }   
+    .container{
+        width: 100vw;
+       
+    }
+    .contact-email{
+        width: 90vw;
+        height: 50vh;
+        border: 1px solid white;
+        border-radius: 5px;
+       
+    }
+    form{
+        text-align: center;
+        width: 90vw;
+        height: 50vh;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+        font-size:1.1em;
+        background-color: #11181c;
+        padding: 7px 11px;
+        border-radius: 5px;
+    }
+    textarea{
+        border: none;
+        font-size: 14px;
+        outline: none;
+    
+    }
+    input{
+        padding: 5px;
+        color: #11181c;
+        font-size: 18px;
+        caret-color:#000000 ;
+        border: none;
+        background-color: #ffffff;
+        outline: none;
+    }
+   
 }
